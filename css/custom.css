@@ -4,6 +4,215 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
+.side-header #header .container {
+  width: 260px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
+#logo img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
 
+.side-header #header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 260px;
+  height: 100%;
+  height: calc(100vh);
+  background-color: #3d3d3c;
+  border: none;
+  border-right: 1px solid #3d3d3c;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) !important;
+}
 
+#primary-menu ul li > a {
+  display: block;
+  line-height: 22px;
+  padding: 39px 15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  -webkit-transition: margin 0.4s ease, padding 0.4s ease;
+  -o-transition: margin 0.4s ease, padding 0.4s ease;
+  transition: margin 0.4s ease, padding 0.4s ease;
+}
+
+#primary-menu ul li:hover > a,
+#primary-menu ul li.current > a {
+  color: #c22a28;
+}
+
+.side-header #primary-menu ul ul {
+  position: relative;
+  width: 100%;
+  background-color: #c22a28;
+  box-shadow: none;
+  border: none;
+  height: auto;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin: 5px 0;
+  padding-left: 12px;
+}
+
+#primary-menu ul ul li > a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: 0;
+  letter-spacing: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-size: 14px !important;
+  padding: 5px 0 !important;
+  text-transform: none !important;
+}
+
+.side-header #primary-menu ul li a {
+  padding-left: 10px !important;
+}
+
+.side-header #primary-menu ul ul li {
+  margin: 0;
+  border: 0;
+  padding: 10px 0;
+}
+
+.side-header #primary-menu ul > li.sub-menu > a:after {
+  position: absolute;
+  content: "\e7a5";
+  top: 1px;
+  right: 10px;
+  -webkit-transition: transform 0.2s linear;
+  -o-transition: transform 0.2s linear;
+  transition: transform 0.2s linear;
+}
+
+.side-header #primary-menu ul ul li:hover > a {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.slider-caption h2 {
+  font-size: 3.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0.02em 0.02em 0em rgba(0, 0, 0, 0.4);
+  margin-bottom: 0;
+}
+
+.slider-caption,
+.flex-caption {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  z-index: 20;
+  max-width: 750px;
+  color: #eee;
+  font-size: 1.375rem;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  -webkit-transition: top 0.3s ease;
+  -o-transition: top 0.3s ease;
+  transition: top 0.3s ease;
+  text-shadow: 0.02em 0.02em 0em rgba(0, 0, 0, 0.4);
+}
+
+.dark .slider-caption,
+.dark .slider-caption h2 {
+  color: #fff;
+  text-shadow: 0.02em 0.02em 0em rgba(0, 0, 0, 0.4);
+}
+
+.side-header #primary-menu:not(.nobottomborder):after {
+  display: block;
+  content: "";
+  width: 20%;
+  border-bottom: 1px solid #e5e5e5;
+  left: 10px !important;
+  padding-left: 20px;
+  position: relative;
+}
+
+#slider {
+  height: 70vh !important;
+}
+
+h3 > span:not(.nocolor):not(.badge) {
+  color: #c22a28;
+}
+.section--1 {
+  background: #c22a28;
+  padding: 40px 0;
+  margin: 40px 0;
+}
+.section--1 h2,
+.section--1 h4 {
+  color: #fff;
+}
+.section--1 h2 {
+  font-size: 3em;
+  font-weight: 100;
+  line-height: 44px;
+}
+.btn-1 {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0;
+  font-size: 20px;
+  padding: 10px 40px;
+  transition: all 0.2s ease-in-out;
+}
+h2.h2--title {
+  font-size: 3em;
+  font-weight: 100;
+  line-height: 44px;
+}
+.btn-1:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+}
+.feature-box .fbox-icon i,
+.feature-box .fbox-icon img {
+  border-radius: 50%;
+  background-color: #c22a28;
+}
+.brd--1 {
+  border-top: 1px solid #c22a28;
+  border-bottom: 1px solid #c22a28;
+  padding-top: 20px;
+}
+.section--1--1 {
+  background: #f3f3f3;
+}
+.section--1--2 {
+  background: #fff;
+}
+.section-services p.lead,
+.section-services h3,
+.section-services h2 {
+  color: #212121;
+}
+.section-services h2 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
