@@ -32,10 +32,11 @@ include 'header.php';
 
     <div class="container clearfix">
       <div class="row">
-        <div class="col-sm-6 my-auto">
+        <div class="col-sm-6 col-xs-12 my-auto">
+          <img src="g-ads-2.png" class="mb-4" style="max-width: 200px;" alt="">
           <h2 class="h2--title">Wie Sie Ihre Google Ads Performance auf das nächste Level bringen?</h2>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-xs-12">
           <div class="row">
             <div class="col-sm-6">
               <div class="counter center counter-large"><span data-from="0" data-to="120" data-refresh-interval="20" data-speed="2000"></span>
@@ -64,12 +65,12 @@ include 'header.php';
       <div class="container">
         <div class="row">
           <div class="col-sm-6 col-xs-12">
-            <img src="images/img--1.jpg" alt="">
+            <img src="img-1.jpg" alt="">
           </div>
-          <div class="col-sm-6 col-xs-12 my-auto">
+          <div class="col-sm-6 col-xs-12 my-auto" id="ueber-uns">
             <h4>Ihr SEA-Expertenteamee</h4>
             <h2>Profitieren Sie von top ausgebildeten SEA-Experten unserer Inhouse-Academy. </h2>
-            <a href="#" class="btn btn-1">Mehr infos</a>
+            <p>ads-profi24.de hat seine eigene Google Ads-Geschichte geschrieben und ist mittels der Spezialisierung auf SEA innerhalb von weniger als acht Jahren zu der größten reinen Google Ads Agentur im deutschsprachigen Raum herangewachsen. Wir konnten mehr und mehr mittelständische Unternehmen für uns gewinnen. Wir betreuen Unternehmen aller Branchen, die mit Hilfe kluger Google-Kampagnen ihre Umsätze steigern und Kosten senken.</p>
           </div>
         </div>
       </div>
@@ -77,142 +78,174 @@ include 'header.php';
 
     <div class="promo promo-full promo-border bottommargin-lg">
       <div class="container clearfix">
-        <h3>Rufen Sie uns an unter <span>+123 456 789</span> oder schicken Sie uns eine E-Mail
-          <span>muster@email.de</span></h3>
+        <h3>Rufen Sie uns an unter <span class="numbers"><?php echo $phone_number; ?></span> oder schicken Sie uns eine E-Mail
+          <span><?php echo $email; ?></span></h3>
         <h2>Der einfachste Weg für Sie, um Ihre Google Ads Performance <br> auf das nächste Level zu heben.</h2>
-        <a href="#" class="button button-reveal button-xlarge button-rounded tright"><i class="icon-angle-right"></i><span>Browse Now</span></a>
+
       </div>
     </div>
-    <div class="container clearfix">
+    <div class="container clearfix mb-5">
       <div class="row">
         <div class="col-sm-6 my-auto">
           <h2 class="h2--title">Premium-Service für Google Ads</h2>
           <p class="lead">Ein allumfassender Service für die beste Performance Ihrer Google Ads mit sofortiger Wirkung</p>
         </div>
       </div>
-
-      <div class="col_one_third">
-        <div class="feature-box fbox-center fbox-effect">
-          <div class="fbox-icon">
-            <a href="#"><i class="icon-screen i-alt"></i></a>
+      <div class="row">
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature-box fbox-center fbox-effect">
+            <div class="fbox-icon">
+              <a href="/unsere-leistungen#g-ads"><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>Google Ads</h3>
           </div>
-          <h3>Google Ads</h3>
-          <p>Wir entwicklen für Sie effektive Google Anzeigen, die speziell auf Ihre Zielgruppe zugeschnitten sind. Platzieren Sie Ihre Produkte und Dienstleistungen auf den strategisch sinnvollsten SEA-Kanälen und steigern damit Ihren Umsatz</p>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature-box fbox-center fbox-effect">
+            <div class="fbox-icon">
+              <a href="/unsere-leistungen#microsoft-advertising"><i class="icon-line-circle-check  i-alt"></i></a>
+            </div>
+            <h3>Microsoft Advertising</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature-box fbox-center fbox-effect">
+            <div class="fbox-icon">
+              <a href="/unsere-leistungen#g-shopping-css"><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>Google Shopping & CSS</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature-box fbox-center fbox-effect">
+            <div class="fbox-icon">
+              <a href="/unsere-leistungen#gdn"><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>Google GDN </h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature-box fbox-center fbox-effect">
+            <div class="fbox-icon">
+              <a href="/unsere-leistungen#conversion-optimierung"><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>Conversion-Optimierung</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature-box fbox-center fbox-effect">
+            <div class="fbox-icon">
+              <a href="/unsere-leistungen#kampagnen-management"><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>Kampagnen-Management </h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature-box fbox-center fbox-effect">
+            <div class="fbox-icon">
+              <a href="/unsere-leistungen#youtube-ads"><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>YouTube Ads </h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature-box fbox-center fbox-effect">
+            <div class="fbox-icon">
+              <a href="/unsere-leistungen#customer-tracking"><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>Customer Journey Tracking </h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="feature-box fbox-center fbox-effect">
+            <div class="fbox-icon">
+              <a href="/unsere-leistungen#backlinks"><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>Backlinks</h3>
+          </div>
         </div>
       </div>
 
-      <div class="col_one_third">
-        <div class="feature-box fbox-center fbox-effect">
-          <div class="fbox-icon">
-            <a href="#"><i class="icon-eye i-alt"></i></a>
-          </div>
-          <h3>Microsoft Advertising</h3>
-          <p>Mehr Kunden und bessere Ergebnisse erzielen durch Microsoft Advertising
-            Nutzen Sie Microsoft Advertising, um Millionen potenzieller Kunden anzusprechen, die nach Ihrem Unternehmen suchen.
-          </p>
-        </div>
-      </div>
 
-      <div class="col_one_third col_last">
-        <div class="feature-box fbox-center fbox-effect">
-          <div class="fbox-icon">
-            <a href="#"><i class="icon-beaker i-alt"></i></a>
-          </div>
-          <h3>Google Shopping & CSS</h3>
-          <p>Google Shopping CSS ist eine neue Art, Shopping Anzeigen zu schalten. CSS steht für Comparison Shopping Services – Preisvergleichsdienste – und betrifft insbesondere die Hauptsuche auf der Google-Startseite. Google nutzte die Suchergebnisseite ausschließlich für das eigene Angebot: Google Shopping.</p>
-        </div>
-      </div>
 
       <div class="clear"></div>
 
-      <div class="col_one_third nobottommargin">
-        <div class="feature-box fbox-center fbox-effect">
-          <div class="fbox-icon">
-            <a href="#"><i class="icon-stack i-alt"></i></a>
-          </div>
-          <h3>Google GDN </h3>
-          <p>Das Google Display Network, auch GDN, ist das Werbenetzwerk von Google. Es besteht aus mehr als einer Million Werbepartnern und hat eine enorme Reichweite. Das Netzwerk erreicht laut Angaben von Google 90% aller Internetnutzer auf der Welt.
-            Mehr Reichweite erreichen mit gezielten Kampagnen vom Profi.
-          </p>
-        </div>
-      </div>
-
-      <div class="col_one_third nobottommargin">
-        <div class="feature-box fbox-center fbox-effect">
-          <div class="fbox-icon">
-            <a href="#"><i class="icon-tint i-alt"></i></a>
-          </div>
-          <h3>Conversion-Optimierung</h3>
-          <p>Unter dem Begriff Conversion-Optimierung werden alle Maßnahmen zusammengefasst, die die Wertschöpfung von Internetportalen, meist Onlineshops, erhöhen. Conversion-Optimierung steigert dadurch den Ertrag und den ROI.</p>
-        </div>
-      </div>
-
-      <div class="col_one_third nobottommargin col_last">
-        <div class="feature-box fbox-center fbox-effect">
-          <div class="fbox-icon">
-            <a href="#"><i class="icon-text-width i-alt"></i></a>
-          </div>
-          <h3>Kampagnen-Management </h3>
-          <p>Marketing-Kampagnen-Managementist die Planung, Ausführung, Verfolgung und Analyse von Marketing-Aktionen. Ziel ist es, den Warenabsatz von Produkten zu erhöhen und Kunden stärker an das Unternehmen zu binden.
-          </p>
-        </div>
-      </div>
-
-      <div class="col_one_third nobottommargin col_last">
-        <div class="feature-box fbox-center fbox-effect">
-          <div class="fbox-icon">
-            <a href="#"><i class="icon-text-width i-alt"></i></a>
-          </div>
-          <h3>YouTube Ads </h3>
-          <p>Nutzen Sie die Weltweit zweitmeiste besuchte Website für Ihre Zielgerichtete Werbung.
-          </p>
-        </div>
-      </div>
-
-      <div class="col_one_third nobottommargin col_last">
-        <div class="feature-box fbox-center fbox-effect">
-          <div class="fbox-icon">
-            <a href="#"><i class="icon-text-width i-alt"></i></a>
-          </div>
-          <h3>Customer Journey Tracking </h3>
-          <p>Begleiten Sie jede einzelne Customer Journey durch unsere monatlichen ausführliche Übersicht und sehen Sie selbst Werbe- und Wachstumspotenziale für Ihr Unternehmen.
-          </p>
-        </div>
-      </div>
-
-      <div class="col_one_third nobottommargin col_last">
-        <div class="feature-box fbox-center fbox-effect">
-          <div class="fbox-icon">
-            <a href="#"><i class="icon-text-width i-alt"></i></a>
-          </div>
-          <h3>Customer Journey Tracking </h3>
-          <p>Von starken Seiten themenrelevante Backlinks erhalten
-          </p>
-        </div>
-      </div>
-
-      <div class="clear"></div>
-      <div class="line"></div>
-
-      <div id="oc-clients-full" class="owl-carousel image-carousel carousel-widget" data-margin="30" data-nav="false" data-loop="true" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
-
-        <a href="#"><img src="images/clients/1.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/2.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/3.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/4.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/5.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/6.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/7.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/8.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/9.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/10.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/11.png" alt="Clients"></a>
-        <a href="#"><img src="images/clients/12.png" alt="Clients"></a>
-
-      </div>
 
     </div>
 
+    <div class="container clearfix mb-5">
+      <div class="row">
+        <div class="col-sm-6 my-auto">
+
+          <h2 class="h2--title">Kostenfreier Performance-Check</h2>
+          <p class="lead">Ein allumfassender Service für die beste Performance Ihrer Google Ads mit sofortiger Wirkung</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 mb-4">
+          <div class="feature-box fbox-left fbox-effect">
+            <div class="fbox-icon">
+              <a><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>Analyse Ihre vorhandenen Google Ads Kampagne (wenn vorhanden)</h3>
+            <p>
+              Wir überprüfen/überarbeiten diese und Steigern mit Ihnen zusammen den Qualitätsfaktor sodass Sie pro Klick weniger Geld künftig bezahlen werden.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 mb-4">
+          <div class="feature-box fbox-left fbox-effect">
+            <div class="fbox-icon">
+              <a><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>Kontostrukturierung</h3>
+            <p>
+              Wir strukturieren Ihr Konto neu in den Bereichen Shopping, Suche, Display, Remarketing und YouTube.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 mb-4">
+          <div class="feature-box fbox-left fbox-effect">
+            <div class="fbox-icon">
+              <a><i class="icon-line-circle-check i-alt"></i></a>
+            </div>
+            <h3>Suchbegriffanlayse</h3>
+            <p>
+              Wir prüfen ob Sie alle relevanten Suchbegriffe in Ihrer Kampagne integriert haben und löschen unrelevante Suchbegriffe aus dieser.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container clearfix" id="kontakt">
+      <div class="row">
+        <div class="col-sm-6 my-auto">
+
+          <h2 class="h2--title">Kontaktieren Sie uns</h2>
+        </div>
+      </div>
+      <div class="row contact__information">
+        <div class="col-xs-12 col-sm-6 mb-4">
+          <h4 class="mb-0"><i class="icon-line-circle-check i-alt"></i> Adresse</h4>
+          <h5>Josef-Görres-Platz 2
+            56068 Koblenz</h5>
+        </div>
+        <div class="col-xs-12 col-sm-6 mb-4">
+          <h4 class="mb-0"><i class="icon-line-circle-check i-alt"></i> Telefon</h4>
+          <h5>0261 960 963 50</h5>
+        </div>
+        <div class="col-xs-12 col-sm-6 mb-4">
+          <h4 class="mb-0"><i class="icon-line-circle-check i-alt"></i> Fax</h4>
+          <h5>0261 960 963 60</h5>
+        </div>
+        <div class="col-xs-12 col-sm-6 mb-4">
+          <h4 class="mb-0"><i class="icon-line-circle-check i-alt"></i> E-Mail</h4>
+          <h5>info@ads-profi24.de</h5>
+        </div>
+      </div>
+    </div>
   </div>
 
 </section><!-- #content end -->

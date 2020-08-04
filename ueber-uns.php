@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "Über Uns | ads-profi24.de";
 include 'header.php';
 ?>
 
@@ -51,7 +52,9 @@ include 'header.php';
           <div class="col-sm-6 col-xs-12 my-auto">
             <h4>Ihr SEA-Expertenteamee</h4>
             <h2>Profitieren Sie von top ausgebildeten SEA-Experten unserer Inhouse-Academy. </h2>
-            <a href="#" class="btn btn-1">Mehr infos</a>
+            <p>
+              wir innerhalb von 8 Jahren von 2 auf 100 Mitarbeiter und von 4 auf 670 Erfolgsgeschichten gewachsen sind. Dabei haben wir unser gestecktes Ziel erreicht: Denn heute tragen wir das Abzeichen der größten, reinen Google Ads-Agentur in Deutschland, Österreich und der Schweiz. Geschätzt und mehrfach ausgezeichnet von Google und stolzer Träger des Google Premium Partner Siegels sowie Elitepartner von Microsoft Advertising können wir heute versprechen:
+            </p>
           </div>
         </div>
       </div>
